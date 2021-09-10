@@ -141,7 +141,7 @@ public class sign_up_correct_data extends Set {
 	public void user_lands_on_pricing_page_and_then_user_go_to_free_ppts_page_cd() throws InterruptedException  {
 		
 		Thread.sleep(1000);
-		WebElement Popular_ppt= driver.findElement(By.xpath("/html/body/div[2]/header/div[1]/div[2]/div/nav/div/div/ul/li[3]/a"));
+		WebElement Popular_ppt= driver.findElement(By.xpath("//*[@id="html-body"]/div[2]/header/div[1]/div[2]/div/nav/div/div/ul/li[3]/a"));
 	     Thread.sleep(1000);
 		Popular_ppt.click();
 	
